@@ -9,6 +9,13 @@ h1 {
     transform: translate(-50%, 0);
     font-family: sans-serif;
 }
+h2 {
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 0);
+    font-family: sans-serif;
+}
 
 p {
     position: absolute;
