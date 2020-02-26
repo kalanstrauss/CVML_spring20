@@ -24,11 +24,11 @@ function setup() {
   noStroke();
   background(255);
   
-  for(let i = 0; i < 500; i++) {
+  for(let i = 0; i < 1000; i++) {
    
     let p = new Particle();
     
-    p.size=60;
+    p.size=30;
     particles.push(p);
   }
 }
