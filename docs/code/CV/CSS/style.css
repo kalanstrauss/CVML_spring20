@@ -16,6 +16,7 @@ header {
 }
 
 ul {
+    display: grid;
     padding: 8px;
     margin: 0 auto;
     width: max-content;

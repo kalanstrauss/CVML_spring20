@@ -15,20 +15,27 @@ body {
 }
 
 header {
-    width: 100%;
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    padding: 8px;
+    margin: 0 auto;
+    width: max-content;
     height: max-content;
     background-color:white ;
-    color: white;
+    color: black;
 }
 
 ul {
+    
+   
     padding: 8px;
     margin: 0 auto;
     width: max-content;
 }
 
 li {
-    display: inline-block;
+    display: grid;
     list-style: none;
     margin: 0 10px;
 }
@@ -65,7 +72,7 @@ figcaption {
 .entry {
     display: inline-block;
     width: 350px;
-    max-width: 98%;
+    max-width: 50%;
     min-width: 300px;
     height: 280px;
     height: auto;
